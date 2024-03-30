@@ -1,0 +1,118 @@
+body img {
+    opacity: 0.5;
+    position: sticky;
+   
+}
+body{
+    margin:0;
+    padding:0;
+    
+}
+nav{
+    margin:0;
+    background-color: rgb(45, 45, 224);
+    height: 60px;
+    width:100%;
+}
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+      }
+      @media (max-width: 800px) {
+        
+    }
+    #style{
+         padding-top:25px;
+         padding-left:45px;
+        }
+        #style:hover{
+color: aliceblue;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+          }
+      
+          .input-text {
+            margin: 5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+          }
+          .input-text:hover {
+            background-color: rgb(149, 149, 238);
+          }
+      
+          .circular-input {
+            margin-top: 20px;
+            margin-left:600px;
+            position: relative;
+            display: inline-block;
+          }
+          
+      
+          .circular-input input {
+            margin: 5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            text-align: center;
+          }
+      
+          .circular-input input:hover {
+            background-color:rgb(149, 149, 238);
+          }
+         
+          .circular-input input:hover,
+    .circular-input input:focus {
+      background-color: #f0f0f0;
+      width: 200px;
+      height: 10px;
+    }
+    .input-text input:hover,
+    .input-text input:focus {
+      background-color: #f0f0f0;
+      width: 200px;
+      height: 10px;
+    }
+    .triangle-container {
+        position: relative;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 86.6px solid transparent;
+        
+      }
+  
+      .triangle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 86.6px solid #3498db; /* Default gradient color */
+        transition: background 0.3s;
+        margin-left: 600px;
+        background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+      }
+  
+      .triangle:hover {
+        background: linear-gradient(45deg, #3498db, #e74c3c); /* Change gradient color on hover */
+      }
+        
+       
+
+        
+
+
+   
+   
